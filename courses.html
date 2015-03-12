@@ -1,0 +1,183 @@
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>PageMaker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./css/bootswatch.min.css">
+     <link rel="stylesheet" href="./fontawesome/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+
+<body>
+    
+
+
+
+       
+        <div class="row">
+
+
+          <div class="col-lg-12">
+
+
+
+
+            <div class="bs-component" >
+              <div class="btn-group btn-group-justified">
+                  <a  class="btn btn-default btn-success" style="cursor:default">Template Selection</a>
+
+                <a  class="btn btn-default btn-info " style="cursor:default">About You</a>
+                <a  class="btn btn-default btn-warning" style="cursor:default">Courses & Skills</a>
+                <a class="btn btn-default btn-primary" style="cursor:default">Academic Projects</a>
+                <a class="btn btn-default btn-danger" style="cursor:default">Finish</a>
+              </div>
+            </div>
+
+            
+<div class="bs-component" >
+              <div class="btn-group btn-group-justified">
+               
+                <a class="btn btn-default btn-warning" style="cursor:default"></a>
+              </div>
+            </div>
+            
+
+          </div>
+        </div>
+
+ <div class="bs-docs-section">
+
+
+        <div class="row">
+          <div class="col-lg-2">
+</div>
+          <div class="col-lg-8">
+            <div class="well bs-component">
+              <form class="form-horizontal" method="POST" action="process1.php">
+                <fieldset>
+                   
+<div align="center"> 
+                                    <span class="help-block">Write the courses you have done in each semester with a comma between each courses</span>
+
+                    </div>
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-lg-2 control-label">Joining Year</label>
+                    <div class="col-lg-8">
+
+                      <input type="number" class="form-control" id="inputEmail" placeholder="Should be between 2008 and 2014" name="year" min="2008" max="2014" required>
+
+                    </div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="textArea" class="col-lg-2 control-label">Semester 1</label>
+                    <div class="col-lg-8">
+                      <textarea class="form-control" rows="1" id="textArea" name="sem1" ></textarea>
+
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="textArea" class="col-lg-2 control-label">Semester 2</label>
+                    <div class="col-lg-8">
+                      <textarea class="form-control" rows="1" id="textArea" name="sem2" ></textarea>
+
+                    </div>
+                  </div>
+                                    <div class="form-group">
+                    <label for="textArea" class="col-lg-2 control-label">Semester 3</label>
+                    <div class="col-lg-8">
+                      <textarea class="form-control" rows="1" id="textArea" name="sem3"></textarea>
+
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="textArea" class="col-lg-2 control-label">Semester 4</label>
+                    <div class="col-lg-8">
+                      <textarea class="form-control" rows="1" id="textArea" name="sem4"></textarea>
+
+                    </div>
+                  </div>
+                  
+                  <div align="center"> 
+                                    <span class="help-block">Give your rating out of 100 marks in each of the below mentioned skills</span>
+
+                    </div>
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-lg-2 control-label">Programming Skills</label>
+                    <div class="col-lg-8">
+
+                      <input type="number" class="form-control" id="inputEmail" placeholder="Out of 100 " name="percent1" min="0" max="100" required>
+
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-lg-2 control-label">Public Speaking</label>
+                    <div class="col-lg-8">
+
+                      <input type="number" class="form-control" id="inputEmail" placeholder="Out of 100 " name="percent2" min="0" max="100" required>
+
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-lg-2 control-label">Sports</label>
+                    <div class="col-lg-8">
+
+                      <input type="number" class="form-control" id="inputEmail" placeholder="Out of 100 " name="percent3"min="0" max="100" required>
+
+                    </div>
+                  </div>
+
+                                    <div align="center"> 
+                                    <span class="help-block">Other Skills</span>
+
+                    </div>
+
+<div class="form-group">
+                    <label for="textArea" class="col-lg-2 control-label"> Your Strength and Weaknesses</br><span style="opacity: 0.5;">(briefly)</label>
+                    <div class="col-lg-8">
+                      <textarea class="form-control" rows="2" id="textArea" name="streak" required></textarea>
+
+                    </div>
+                  </div>
+
+                  
+                  <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                      <button type="submit" class="btn btn-primary" name="submit">Next</button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+                    <div class="col-lg-2">
+</div>
+        </div>
+      </div>
+
+
+
+</body>
+
+
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootswatch.js"></script>
+  </body>
+</html>
